@@ -21,7 +21,6 @@ public class Request {
     @NotBlank
     @Length(max = 32)
     private String operationUid;
-    @NotBlank
     private String systemTime;
     private String systemName;
     private String source;
